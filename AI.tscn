@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://buun11g0v5iix"]
+
+[ext_resource type="PackedScene" uid="uid://bcl72omit330i" path="res://eye_ball.tscn" id="1_0nqdy"]
+[ext_resource type="Script" path="res://AI.gd" id="2_gyxgu"]
+
+[node name="Eye_ball" instance=ExtResource("1_0nqdy")]
+script = ExtResource("2_gyxgu")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

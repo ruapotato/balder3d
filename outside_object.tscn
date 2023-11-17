@@ -1,0 +1,261 @@
+[gd_scene load_steps=31 format=3 uid="uid://beepdtjjp8bg1"]
+
+[ext_resource type="PackedScene" uid="uid://g8m8fvjdl8de" path="res://import/outside.glb" id="1_ydm60"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_vpud4"]
+friction = 0.0
+bounce = 1.0
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_h2afu"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_eu8xd"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_x5wfh"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ml4cs"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_7dwde"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_0wcvr"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_xaibg"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_a31ox"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_gltac"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_rd78t"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_1yqqa"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_2cogr"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_kaj6a"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_1xxlp"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_bm647"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_pw1fs"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ymyes"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_nl7sf"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_62pjv"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_f4tdv"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_8lr3r"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_g4f1c"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_0nhhh"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_i7lv3"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_8ygx0"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_gk8fn"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_be77e"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_37nbe"]
+data = PackedVector3Array(-1, -2.0588, 1, 1, -2.0588, -1, 1, -2.0588, 1, -1, -2.0588, 1, -1, -2.0588, -1, 1, -2.0588, -1)
+
+[node name="outside" instance=ExtResource("1_ydm60")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_h2afu")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_001" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_001/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_eu8xd")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_004" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_004/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_x5wfh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_005" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_005/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_ml4cs")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_006" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_006/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_7dwde")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_007" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_007/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_0wcvr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_008" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_008/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_xaibg")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_009" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_009/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_a31ox")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_010" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_010/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_gltac")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_011" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_011/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_rd78t")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_012" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_012/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_1yqqa")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_013" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_013/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_2cogr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_014" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_014/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_kaj6a")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_015" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_015/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_1xxlp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_016" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_016/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_bm647")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_017" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_017/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_pw1fs")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_018" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_018/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_ymyes")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_019" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_019/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_nl7sf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_020" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_020/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_62pjv")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_021" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_021/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_f4tdv")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_022" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_022/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_8lr3r")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_023" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_023/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_g4f1c")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_024" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_024/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_0nhhh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_025" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_025/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_i7lv3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_026" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_026/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_8ygx0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_027" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_027/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_gk8fn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_028" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_028/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_be77e")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_029" index="0"]
+physics_material_override = SubResource("PhysicsMaterial_vpud4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_029/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_37nbe")

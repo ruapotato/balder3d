@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0xr2q6cfa27b"]
+
+[ext_resource type="PackedScene" uid="uid://dusi85h7dhd4r" path="res://import/life_cube.glb" id="1_nh4da"]
+
+[node name="life_cube" instance=ExtResource("1_nh4da")]

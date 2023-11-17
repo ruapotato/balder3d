@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://4s4xnaoc4dkn"
+path="res://.godot/imported/center.obj-38b2d91f97d45ff0f61e95bdf5d49626.mesh"
+
+[deps]
+
+files=["res://.godot/imported/center.obj-38b2d91f97d45ff0f61e95bdf5d49626.mesh"]
+
+source_file="res://import/center.obj"
+dest_files=["res://.godot/imported/center.obj-38b2d91f97d45ff0f61e95bdf5d49626.mesh", "res://.godot/imported/center.obj-38b2d91f97d45ff0f61e95bdf5d49626.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

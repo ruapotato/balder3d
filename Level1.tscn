@@ -1,0 +1,53 @@
+[gd_scene load_steps=11 format=3 uid="uid://mxfpvcvwb37x"]
+
+[ext_resource type="PackedScene" uid="uid://bptgy18q14lfl" path="res://center_object.tscn" id="1_gcrtl"]
+[ext_resource type="PackedScene" uid="uid://xv4qavvg87kx" path="res://player.tscn" id="2_frbhh"]
+[ext_resource type="PackedScene" uid="uid://beepdtjjp8bg1" path="res://outside_object.tscn" id="3_161jr"]
+[ext_resource type="PackedScene" uid="uid://cjh16vn3babe4" path="res://native/ai_spawn.tscn" id="5_57qgr"]
+[ext_resource type="PackedScene" uid="uid://bwh46dts1xdj2" path="res://native/game_logic.tscn" id="6_2x56p"]
+[ext_resource type="PackedScene" uid="uid://bssry3tv4c0m0" path="res://spawn_items.tscn" id="6_jrdkw"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_iev4g"]
+sky_top_color = Color(0.282353, 0.376471, 0.533333, 1)
+sky_horizon_color = Color(0.756863, 0.795098, 0.858824, 1)
+ground_bottom_color = Color(0.745098, 0.803922, 0.901961, 1)
+ground_horizon_color = Color(0.756863, 0.795098, 0.858824, 1)
+
+[sub_resource type="Sky" id="Sky_4we6g"]
+sky_material = SubResource("ProceduralSkyMaterial_iev4g")
+
+[sub_resource type="Environment" id="Environment_tgd1l"]
+background_mode = 2
+sky = SubResource("Sky_4we6g")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_t06yy"]
+friction = 0.0
+bounce = 1.0
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_tgd1l")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="StaticBody3D" parent="." instance=ExtResource("1_gcrtl")]
+
+[node name="outside" parent="." instance=ExtResource("3_161jr")]
+
+[node name="Player" parent="." instance=ExtResource("2_frbhh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.82861, 0)
+physics_material_override = SubResource("PhysicsMaterial_t06yy")
+gravity_scale = 0.0
+angular_damp = 100.0
+metadata/life = 100.0
+
+[node name="ai_spawn" parent="." instance=ExtResource("5_57qgr")]
+
+[node name="game_logic" parent="." instance=ExtResource("6_2x56p")]
+
+[node name="spawn items" parent="." instance=ExtResource("6_jrdkw")]

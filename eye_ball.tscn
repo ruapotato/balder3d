@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://bcl72omit330i"]
+
+[ext_resource type="PackedScene" uid="uid://cm11u1psjrtrs" path="res://native/player_base_model.tscn" id="1_064ss"]
+[ext_resource type="Material" uid="uid://0kujebapxh14" path="res://native/player_core.tres" id="2_h4f2c"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2k7bf"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_dsiex"]
+
+[node name="Eye_ball" type="RigidBody3D"]
+contact_monitor = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_2k7bf")
+
+[node name="player" parent="." instance=ExtResource("1_064ss")]
+
+[node name="core" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0, 0, 0)
+material_override = ExtResource("2_h4f2c")
+mesh = SubResource("SphereMesh_dsiex")

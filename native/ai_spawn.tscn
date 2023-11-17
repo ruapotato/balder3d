@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjh16vn3babe4"]
+
+[ext_resource type="Script" path="res://native/ai_spawn.gd" id="1_05cy2"]
+
+[node name="ai_spawn" type="Node"]
+script = ExtResource("1_05cy2")

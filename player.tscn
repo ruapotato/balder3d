@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=3 uid="uid://xv4qavvg87kx"]
+
+[ext_resource type="PackedScene" uid="uid://bcl72omit330i" path="res://eye_ball.tscn" id="1_3cepn"]
+[ext_resource type="Script" path="res://Player.gd" id="2_gl8o3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_08cx2"]
+
+[sub_resource type="TextMesh" id="TextMesh_on71g"]
+material = SubResource("StandardMaterial3D_08cx2")
+text = "+"
+
+[node name="Eye_ball" instance=ExtResource("1_3cepn")]
+script = ExtResource("2_gl8o3")
+
+[node name="Camera3D" type="Camera3D" parent="." index="2"]
+transform = Transform3D(1, -4.37114e-08, 4.37114e-08, 4.37114e-08, 1, -3.51637e-21, -4.37114e-08, 1.91069e-15, 1, -0.00763088, 0.0181422, -0.516144)
+current = true
+
+[node name="Cross_hair" type="MeshInstance3D" parent="." index="3"]
+transform = Transform3D(0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0, 0, -1.83226)
+mesh = SubResource("TextMesh_on71g")
+
+[node name="Life_Text" type="Label3D" parent="." index="4"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.753723, 0.389012, -1.09922)
+modulate = Color(1, 0, 0, 1)
+text = "Life: 100"
+horizontal_alignment = 0
+
+[node name="Launch_Power_Text" type="Label3D" parent="." index="5"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.688845, 0.389012, -1.09922)
+modulate = Color(1, 0, 0, 1)
+text = "Bounce"
+horizontal_alignment = 2
+
+[node name="Power_Text" type="Label3D" parent="." index="6"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.279631, 0.389012, -1.09922)
+modulate = Color(0.172549, 0.513726, 1, 1)
+text = "capacitor: 0"
+horizontal_alignment = 0
+
+[node name="AudioListener3D" type="AudioListener3D" parent="." index="7"]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

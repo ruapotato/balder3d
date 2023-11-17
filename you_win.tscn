@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6q3r3cgbrld7"]
+
+[ext_resource type="Script" path="res://native/you_win.gd" id="1_ilc3g"]
+
+[node name="You WIN" type="Node2D"]
+script = ExtResource("1_ilc3g")
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(0, 1, 1, 1)
+offset_left = 308.0
+offset_top = 281.0
+offset_right = 376.0
+offset_bottom = 307.0
+scale = Vector2(9.39996, 4.70824)
+text = "You Win!"
+horizontal_alignment = 1
